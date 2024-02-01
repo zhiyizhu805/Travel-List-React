@@ -109,7 +109,7 @@ export default function App() {
     if (confirmed) setItems([]);
   }
   return (
-    <div>
+    <div class="container">
       <Logo />
       {/* naming convention onFunctioName = handleFunctionName */}
       <Form onAddItems={handleAddItems} />
